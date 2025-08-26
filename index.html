@@ -19,7 +19,24 @@
     <!-- CSS file   -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    
+<body class="primary-font">
+    <!-- Navigation Section  -->
+    <header>
+        <nav class="nav-section flex justify-between items-center px-[10px] gap-[20px] md:gap-0 md:px-[60px] my-[25px]">
+            <!-- left icon  -->
+            <div class="left-side flex items-center gap-[10px]">
+                <img class="h-[50px] w-[50px]" src="assets/logo.png" alt="Emergency Service logo">
+                <p class="text-[1.4rem] text-[#006747] font-bold hidden md:block">Emergency <br> Service</p>
+            </div>
+            <!-- right side buttons  -->
+            <div class="right-side">
+                <div class="flex items-center gap-[10px] md:gap-[20px]">
+                    <button class="flex items-center gap-[10px] bg-[#41ff6b1a] px-[25px]  md:px-[36px] py-[14px] rounded-[50px]"><span class="text-[16px] font-bold text-black">0</span><img class="h-[30px] w-[30px]" src="assets/heart.png" alt=""></button>
+                    <button class="flex items-center gap-[10px] bg-[#41ff6b1a] px-[25px] md:px-[36px] py-[14px] rounded-[50px]"><span class="text-[16px] font-bold text-black">0</span><img class="h-[30px] w-[30px]" src="assets/coin.png" alt=""></button>
+                    <button class="flex items-center gap-[10px] bg-[#00a63e] px-[25px] md:px-[36px] py-[14px] rounded-[50px] text-white font-[600]"><span class="text-[16px] font-bold text-white">0</span>Copy</button>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
