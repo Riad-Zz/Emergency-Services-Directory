@@ -81,3 +81,9 @@ for(const call of allCalls){
 }
 
 
+//-------------------History Clear Button-----------------------
+document.getElementById("clear-btn")
+    .addEventListener('click',function(e){
+        const historyContainers = SearchID("history-container") ;
+        historyContainers.innerHTML="" ;
+    })
