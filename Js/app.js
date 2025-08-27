@@ -17,6 +17,18 @@ for(const heart of hearts){
         // console.log("Clicked") ;
         Nav_update("Heart_Count") ;
     })
+
+    //-------Hear Icon Inprovement------------
+    heart.addEventListener('mouseenter',function(e){
+        // console.log("Mouse here") ;
+        heart.classList.remove('fa-regular') ;
+        heart.classList.add('fa-solid','text-red-700','cursor-pointer') ;
+    })
+     heart.addEventListener('mouseleave',function(e){
+        // console.log("Mouse here") ;
+        heart.classList.remove('fa-solid','text-red-700') ;
+        heart.classList.add('fa-regular') ;
+    })
 }
 
 //-------------------------Copy Count------------------------- 
@@ -87,3 +99,4 @@ document.getElementById("clear-btn")
         const historyContainers = SearchID("history-container") ;
         historyContainers.innerHTML="" ;
     })
+
