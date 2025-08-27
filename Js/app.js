@@ -11,7 +11,7 @@ function Nav_update(id){
 
 
 //-------------------Heart Count------------------------- 
-let hearts = document.getElementsByClassName("fa-regular") ;
+let hearts = document.getElementsByClassName("heartIcon") ;
 for(const heart of hearts){
     heart.addEventListener("click",function(e){
         // console.log("Clicked") ;
